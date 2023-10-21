@@ -22,7 +22,7 @@ String authFailResponse = "Authentication Failed";
 
 void setup() {
   Serial.begin(9600);
-  pinMode()
+  pinMode(BUILTIN,OUTPUT);
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
   if (WiFi.waitForConnectResult() != WL_CONNECTED) {
