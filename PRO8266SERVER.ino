@@ -48,4 +48,8 @@ void loop() {
   server.handleClient();
 }
 void sell_blink(){
+  digitalWrite(BUILTIN_LED,HIGH);
+  delay(100);
+  digitalWrite(BUILTIN_LED,LOW);
+  delay(100);
 }
