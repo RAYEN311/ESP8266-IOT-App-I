@@ -55,3 +55,4 @@ void loop() {
 server.handleClient();
 
 }
+// adding some codes for futur applications
