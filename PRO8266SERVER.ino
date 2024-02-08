@@ -7,6 +7,7 @@
 #include <ESP8266WebServer.h>
 
 const char *ssid = "RAYEN ESP8266";
+
 const char *password = "RAYEN";
 
 ESP8266WebServer server(80);
