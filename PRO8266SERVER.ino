@@ -1,4 +1,4 @@
-// esp 8266 iot app
+// esp 826 io app
 // starz BMS include
 #include <ESP8266WiFi.h>
 
